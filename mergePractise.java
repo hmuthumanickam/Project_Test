@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public static void main(String[] args)
 {
 
-	System.setProperty("webdriver.gecko.driver", "./driver/geckodriver_32bit.exe");
+	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver_32bit.exe");
 	FirefoxDriver driver =  new FirefoxDriver();
 
 	driver.get("http://leaftaps.com/opentaps/control/main");
