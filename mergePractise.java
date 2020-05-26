@@ -13,5 +13,7 @@ public static void main(String[] args)
 	driver.manage().window().maximize();
 
 	System.out.println("Chrome driver intialised sucessfully and launched leaft tap");
+        System.out.println("Chrome browser maximised");
+
 
 }
